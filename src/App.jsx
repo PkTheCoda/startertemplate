@@ -1,10 +1,20 @@
 import { useState } from 'react'
+import Homepage from './Pages/Homepage'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="bg-red-100 six-title text-center font-fig">hi</div>
+      <BrowserRouter>
+        <Routes>
+          <Route 
+            index
+            element={<Homepage />}
+          />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
