@@ -5,6 +5,7 @@ const Homepage = () => {
   return (
     <>
         <Hero />
+        some random content
     </>
   )
 }
