@@ -15,11 +15,11 @@
   .one-title {
     @apply md:text-xl text-lg
   }
-
+  
   .two-title {
     @apply md:text-2xl text-xl
   }
-
+  
   .three-title {
     @apply md:text-3xl text-2xl
   }
