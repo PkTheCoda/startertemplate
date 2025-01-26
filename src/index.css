@@ -12,6 +12,13 @@
     display: none;
   }
 
+  .one-title {
+    @apply md:text-xl text-lg
+  }
+
+  .two-title {
+    @apply md:text-2xl text-xl
+  }
 
   .three-title {
     @apply md:text-3xl text-2xl
@@ -30,11 +37,11 @@
   }
 
   .seven-title {
-      @apply xl:text-7xl lg:text-6xl md:text-5xl text-3xl
+      @apply xl:text-7xl lg:text-6xl text-5xl
   }
 
   .eight-title {
-      @apply xl:text-8xl lg:text-6xl md:text-5xl text-3xl
+      @apply xl:text-8xl lg:text-7xl text-6xl
   }
 
   .half-responsive {
